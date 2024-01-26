@@ -14,7 +14,7 @@ const Settings = () => {
         <About />
         <Skills />
         <Education />
-        <Projects />
+        {/* <Projects /> */}
         <Experiences />
       </motion.div>
     </AnimatePresence>

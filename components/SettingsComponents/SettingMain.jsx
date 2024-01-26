@@ -13,13 +13,6 @@ const SettingMain = () => {
       <motion.div layout className="cardStyle">
         <h1 className="text-2xl font-bold">CV Builder</h1>
         <div className="mt-5">
-          <p>
-            Hi guys, I designed this project for everyone to use and I still
-            continue to design it. I will add more features and template designs
-            soon. Please send me feedback if you like it. <br />
-            <br /> To be more supportive, you can buy me a coffee so I can work
-            harder.
-          </p>
           <div className="bg-sky-50 border-2 border-sky-700/50 px-2 mt-4 mb-2 pt-4 py-2 rounded-xl">
             <h1 className="text-sky-900 text-xl font-bold">Before using</h1>
             <ol className="list-none mt-2 text-sky-900 space-y-2">
@@ -48,14 +41,6 @@ const SettingMain = () => {
             layout
             className="w-44 h-1 mx-auto mt-2 bg-gray-200 rounded-full"
           />
-          <div className="flex space-x-2 mt-2">
-            <ContactBtn />
-
-            <GithubBtn />
-          </div>
-          <div className="mt-2">
-            <CoffeBtn />
-          </div>
 
           <div className="mt-5">
             <h1 className="text-xl font-bold">Templates</h1>

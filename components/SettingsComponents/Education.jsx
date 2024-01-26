@@ -22,7 +22,7 @@ const Education = () => {
           layout
           className="w-full flex text-neutral-500 cursor-pointer text-lg"
         >
-          <span className="flex-1">Educations</span>
+          <span className="flex-1">Education</span>
           <motion.div
             className="inline-block items-end"
             animate={{ rotate: isOpen ? 90 : 0 }}

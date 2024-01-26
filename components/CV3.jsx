@@ -225,7 +225,7 @@ const CV3 = () => {
               </section>
               {/* EXPERIENCE END */}
               {/* PROJECTS START */}
-              <section id="projects" className="relative">
+              {/* <section id="projects" className="relative">
                 <h3 className={titles}>Projects</h3>
 
                 {item.projects.map((project, index) => {
@@ -243,7 +243,7 @@ const CV3 = () => {
                     </div>
                   );
                 })}
-              </section>
+              </section> */}
               {/* PROJECTS END */}
             </div>
           );

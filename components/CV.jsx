@@ -61,7 +61,7 @@ const CV = () => {
                 {item.email && item.displayMail ? (
                   <div className={items}>
                     <HiOutlineMail className={itemsSVG} />
-                    <a href={`mailto:${item.email}`}>{item.email}</a>
+                    <a href={`mailto:${item.email}`} className="whitespace-pre">{item.email}</a>
                   </div>
                 ) : null}
                 {item.website && item.displayWebSite ? (
@@ -178,7 +178,7 @@ const CV = () => {
               </section>
               {/* SKILLS END */}
               {/* PROJECTS START */}
-              <section id="projects" className="w-1/2">
+              {/* <section id="projects" className="w-1/2">
                 <h3 className={titles}>Projects</h3>
                 {item.projects.map((project, index) => {
                   return (
@@ -195,7 +195,7 @@ const CV = () => {
                     </div>
                   );
                 })}
-              </section>
+              </section> */}
               {/* PROJECTS END */}
             </section>
             {/* SKILLS AND PROJECTS END */}

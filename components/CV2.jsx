@@ -22,7 +22,7 @@ const CV2 = () => {
 
   return (
     <div className="w-full h-full flex" id="cv">
-      <div className="relative  pr-5 flex flex-col mr-2 h-full w-[30%]">
+      <div className="relative  pr-5 flex flex-col mr-2 h-full w-[33%]">
         <div className="border-l h-[840px] -top-8 right-0 border-black/30 absolute" />
         {[cv.cv].map((item, index) => {
           return (
@@ -247,7 +247,7 @@ const CV2 = () => {
               </section>
               {/* EXPERIENCE END */}
               {/* PROJECTS START */}
-              <section id="projects" className="relative">
+              {/* <section id="projects" className="relative">
                 <h3 className={titles}>Projects</h3>
                 <div className="absolute -left-[29px] top-[7px]">
                   <div className=" absolute rounded-sm rotate-45 h-3 w-3 ring-4 ring-white bg-black " />
@@ -269,7 +269,7 @@ const CV2 = () => {
                     </div>
                   );
                 })}
-              </section>
+              </section> */}
               {/* PROJECTS END */}
             </div>
           );
